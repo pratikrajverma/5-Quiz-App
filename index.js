@@ -81,7 +81,7 @@ loadQuestion();
 
 
 
-// ye submit karne ka function he jo user ka input lene ke bad karenge
+// ye submit button  ka function he jo user ka input lene ke bad karenge
 function submit()
 {
     const ans = getAnswer();
@@ -104,7 +104,7 @@ function submit()
 // ye user ka input value lega 
 function getAnswer()
 {
-    let answer="";
+    const answer="";
     options.forEach((input)=>{
         if(input.checked)
         {
