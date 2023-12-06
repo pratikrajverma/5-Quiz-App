@@ -16,7 +16,7 @@
 
 .content{
     height: 70%;
-    width: 40em;
+    max-width: 40em;
     background-color: rgba(0, 255, 255, 0.324);
     border-radius: 12px;
     box-shadow: 0 0 10px rgb(146, 146, 146);
