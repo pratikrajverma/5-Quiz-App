@@ -1,0 +1,98 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100wh;
+    background-image: linear-gradient(lightblue,lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* user-select: none; */
+}
+
+.content{
+    height: 70%;
+    width: 40em;
+    background-color: rgba(0, 255, 255, 0.324);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(146, 146, 146);
+    padding: 1.5rem;
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+li{
+    all: unset;
+}
+
+label{
+    
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+button{
+    all: unset;
+    padding: 1rem 2rem;
+    background-color: yellowgreen;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+button:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+button:active{
+    scale: .9;
+}
+
+[queBox]{
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: rgb(75, 75, 75);
+    
+}
+
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+[wrong]
+{
+    color: rgb(224, 38, 38);
+}
+[right]
+{
+    color: rgb(2, 150, 20);
+}
+
+
+[noAttempt]{
+    color: gray;
+}
